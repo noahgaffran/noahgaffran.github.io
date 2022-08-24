@@ -6,8 +6,8 @@ a {
 }
 :root{
 	--shadow-color: #14A359;
-	--txt-color: #fafafa
-	--bg-color: #052916
+	--txt-color: #fafafa;
+	--bg-color: #052916;
 }
 .box {
   margin: auto;
