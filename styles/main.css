@@ -6,8 +6,8 @@ a {
 }
 :root{
 	--shadow-color: #14A359;
-	--txt-color: #fafafa;
-	--bg-color: #052916;
+	--txt-color: #052916;
+	--bg-color: #E2F4EA;
 }
 .box {
   margin: auto;
@@ -86,7 +86,7 @@ a {
   margin-right: 20px;
 }
 .project img.real {
-  border-radius: 6px;
+  border-radius: 0px 6px 6px 6px;
 }
 .project img.centered {
   float: none;
