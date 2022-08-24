@@ -1,26 +1,31 @@
 body {
-  background-color: #14A359;
+  background-color: #fafafa;
 }
 a {
   text-decoration: none;
+}
+:root{
+	--shadow-color: #14A359;
+	--txt-color: #fafafa
+	--bg-color: #052916
 }
 .box {
   margin: auto;
   padding: 10px;
   text-align: center;
-  background-color: #fafafa;
+  background-color: var(--bg-color);
   border-radius: 0px 6px 6px 6px;
   font-family: 'Libre Franklin', sans-serif;
-  box-shadow: 3.5px 3.5px 0 2px #afafaf;
+  box-shadow: 3.5px 3.5px 0 2px var(--shadow-color);
 }
 .header {
   margin: auto;
   padding: 10px;
   text-align: center;
-  background-color: #fafafa;
+  background-color: var(--bg-color);
   border-radius: 0px 6px 6px 6px;
   font-family: 'Libre Franklin', sans-serif;
-  box-shadow: 3.5px 3.5px 0 2px #afafaf;
+  box-shadow: 3.5px 3.5px 0 2px var(--shadow-color);
   width: 800px;
   margin-bottom: 20px;
   font-size: 24px;
@@ -29,14 +34,17 @@ a {
   font-size: 75px;
   margin-bottom: 0px;
   font-weight: bold;
+  color: var(--txt-color);
 }
 .header .shortBio {
   font-size: 24px;
   margin-bottom: 0px;
+  color: var(--txt-color);
 }
 .header a {
   padding: 10px;
   font-size: 24px;
+  color: var(--txt-color);
 }
 .projects {
   display: flex;
@@ -48,10 +56,10 @@ a {
   margin: auto;
   padding: 10px;
   text-align: center;
-  background-color: #fafafa;
+  background-color: var(--bg-color);
   border-radius: 0px 6px 6px 6px;
   font-family: 'Libre Franklin', sans-serif;
-  box-shadow: 3.5px 3.5px 0 2px #afafaf;
+  box-shadow: 3.5px 3.5px 0 2px var(--shadow-color);
   margin: 15px;
   width: 825px;
 }
@@ -59,14 +67,17 @@ a {
   font-size: 25px;
   padding-bottom: 6px;
   font-weight: bold;
+  color: var(--txt-color);
 }
 .project .description {
   padding: 5px;
   text-align: left;
   font-size: 18px;
+  color: var(--txt-color);
 }
 .project a {
   margin: 10px;
+  color: var(--txt-color);
 }
 .project img {
   float: left;
@@ -107,10 +118,10 @@ a {
   margin: auto;
   padding: 10px;
   text-align: center;
-  background-color: #fafafa;
+  background-color: var(--bg-color);
   border-radius: 0px 6px 6px 6px;
   font-family: 'Libre Franklin', sans-serif;
-  box-shadow: 3.5px 3.5px 0 2px #afafaf;
+  box-shadow: 3.5px 3.5px 0 2px var(--shadow-color);
   width: 825px;
   margin-top: 20px;
 }
@@ -118,4 +129,5 @@ a {
   font-size: 25px;
   padding-bottom: 6px;
   font-weight: bold;
+  color: var(--txt-color)
 }
